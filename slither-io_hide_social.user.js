@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version            0.0.0.6
+// @version            0.0.0.7
 // @grant              none
 // @match              http://slither.io/*
 // @connect            self
@@ -49,7 +49,8 @@
 		console.debug("interval "+hideSocialInt);
 		if ($("iframe[src='/social-box/']").length > 0) {
 			console.info("if block "+(++num));
-			$("iframe[src='/social-box/']")[0].remove(); //style.display = "none";
+			document.getElementsByTagName("iframe")[0].remove();
+			//$("iframe[src='/social-box/']")[0].remove(); //style.display = "none";
 			//window.clearInterval(hideSocialInt);
 		}
 	},500);
