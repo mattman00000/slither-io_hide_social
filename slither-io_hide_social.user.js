@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version            0.0.0.2
+// @version            0.0.0.3
 // @grant              none
 // @match              http://slither.io/*
 // @connect            self
@@ -17,6 +17,7 @@
 // @namespace          https://github.com/mattman00000
 // @license            MIT
 // @copyright          2016+, Matthew James Burnham
+// @require            https://code.jquery.com/jquery-3.1.1.js#sha256=16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA
 // ==/UserScript==
 /**
   The MIT License (MIT)
